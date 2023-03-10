@@ -1,0 +1,7 @@
+THIS IS A BASE MODULE.
+THIS MODULE IS USED TO MADE ANOTHERS MODULES FOR ODOO
+
+
+1-. Is nesesary to copy the originaly file.
+2-. Be sure about the name in the paths of your __manifest__.py
+

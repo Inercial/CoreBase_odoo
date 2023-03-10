@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="moduloreal_view_tree" model="ir.ui.view">
+        <field name="name">moduloreal.office.view.tree</field>
+        <field name="model">moduloreal.office</field>
+        <field name="arch" type="xml">
+            <tree>
+                <header>
+                    <button name="action_open_wizard" string="💣" class="oe_highlight"/>
+                </header> 
+                <field name="one"></field>
+                <field name="two"></field>
+                <field name="three"></field>
+            </tree>
+        </field>
+    </record>
+
+    <record id="moduloreal_view_form" model="ir.ui.view">
+        <field name="name">moduloreal.office.view.form</field>
+        <field name="model">moduloreal.office</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <field name="one"></field>
+                        <field name="two"></field>
+                        <field name="three"></field>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="moduloreal_action" model="ir.actions.act_window">
+        <field name="name">First page</field>
+        <field name="res_model">moduloreal.office</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+            <h1>No information to see</h1>
+            <p>¯\ (ツ) /¯</p>
+        </field>
+    </record>
+
+        <menuitem
+        id="moduloreal_menu"
+        name="REAL"
+        action="purchase.action_rfq_form"
+        sequence="10"/>
+</odoo>
