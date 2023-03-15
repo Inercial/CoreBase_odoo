@@ -1,0 +1,1 @@
+# CoreBase_odoo
