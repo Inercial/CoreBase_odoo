@@ -44,7 +44,7 @@
 
     <menuitem
         id="corebase_menu"
-        name="REAL"
-        action="ir.actions.act_window"
+        name="Core Base Menu"
+        action="corebase_action"
         sequence="10"/>
 </odoo>

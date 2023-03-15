@@ -1,6 +1,6 @@
 from odoo import fields, models
 
-class moduloreal(models.Model):
+class corebaseModule(models.Model):
     _name = "corebase.module"
     _description = "CoreBase module description"
 

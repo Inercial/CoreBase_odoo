@@ -1,2 +1,2 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_corebase,access_corebase,model_corebase,base.group_user,1,1,1,1 
+access_corebase_module,access_corebase_module,model_corebase_module,base.group_user,1,1,1,1 
