@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
 
-    <record id="moduloreal_view_tree" model="ir.ui.view">
-        <field name="name">moduloreal.office.view.tree</field>
-        <field name="model">moduloreal.office</field>
+    <record id="corebase_view_tree" model="ir.ui.view">
+        <field name="name">corebase.module.view.tree</field>
+        <field name="model">corebase.module</field>
         <field name="arch" type="xml">
             <tree>
                 <header>
@@ -16,9 +16,9 @@
         </field>
     </record>
 
-    <record id="moduloreal_view_form" model="ir.ui.view">
-        <field name="name">moduloreal.office.view.form</field>
-        <field name="model">moduloreal.office</field>
+    <record id="corebase_view_form" model="ir.ui.view">
+        <field name="name">corebase.module.view.form</field>
+        <field name="model">corebase.module</field>
         <field name="arch" type="xml">
             <form>
                 <sheet>
@@ -32,9 +32,9 @@
         </field>
     </record>
 
-    <record id="moduloreal_action" model="ir.actions.act_window">
+    <record id="corebase_action" model="ir.actions.act_window">
         <field name="name">First page</field>
-        <field name="res_model">moduloreal.office</field>
+        <field name="res_model">corebase.module</field>
         <field name="view_mode">tree,form</field>
         <field name="help" type="html">
             <h1>No information to see</h1>
@@ -43,8 +43,8 @@
     </record>
 
     <menuitem
-        id="moduloreal_menu"
+        id="corebase_menu"
         name="REAL"
-        action="purchase.action_rfq_form"
+        action="ir.actions.act_window"
         sequence="10"/>
 </odoo>

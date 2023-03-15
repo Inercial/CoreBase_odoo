@@ -1,7 +1,7 @@
 from odoo import fields, models
 
 class moduloreal(models.Model):
-    _name = "corebase.office"
+    _name = "corebase.module"
     _description = "CoreBase module description"
 
     one = fields.Char(string="1")

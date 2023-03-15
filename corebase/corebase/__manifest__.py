@@ -10,7 +10,7 @@
         'base',
     ],
     'data': [
-        'views/corebase_view.xml ',
+        'views/corebase_view.xml',
         'security/ir.model.access.csv',
     ],
     'demo': [
