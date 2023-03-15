@@ -1,1 +1,1 @@
-from . import moduloreal_office
+from . import corebase

@@ -42,7 +42,7 @@
         </field>
     </record>
 
-        <menuitem
+    <menuitem
         id="moduloreal_menu"
         name="REAL"
         action="purchase.action_rfq_form"
