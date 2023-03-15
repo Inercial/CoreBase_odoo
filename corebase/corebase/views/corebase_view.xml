@@ -44,7 +44,7 @@
 
     <menuitem
         id="corebase_menu"
-        name="Core Base Menu"
+        name="Core Base"
         action="corebase_action"
         sequence="10"/>
 </odoo>
